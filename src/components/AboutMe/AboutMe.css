@@ -1,0 +1,40 @@
+.AboutMeBox {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(
+      107.3deg,
+      #212121 8.54%,
+      rgba(33, 33, 33, 0) 235%
+    ),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
+  border: 1px solid #ffffff33;
+  width: 531px;
+  border-radius: 17px;
+}
+.AboutMeBox h3 {
+  font-family: "Notable", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #e8e8e8;
+  margin: 10px;
+}
+.lower{
+    display: flex;
+    flex-direction: row;
+}
+.lower .right{
+    margin-top: 20px;
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #6C6C6C;
+}
+.left img{
+    margin-bottom: -3px;
+}

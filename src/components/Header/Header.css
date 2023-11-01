@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    color: #E8E8E8;
+    font-family: 'Notable' , sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    letter-spacing: 0em;
+    font-size: 65px;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}
+.imgHeader{
+    height: 47px;
+    border-radius: 19px;
+}

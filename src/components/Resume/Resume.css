@@ -1,0 +1,32 @@
+.ResumeBox {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(
+        107.3deg,
+        #212121 8.54%,
+        rgba(33, 33, 33, 0) 90.34%
+      ),
+      linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
+    border: 1px solid #ffffff33;
+    width: 531px;
+    border-radius: 17px;
+    background-image: url('../../images/4S.svg');
+    /* background: no-repeat; */
+    background-size: cover;
+    width: 323px; 
+height: 315px;
+
+}
+.resume{
+    font-family: 'Notable', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#E8E8E8;
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+}
