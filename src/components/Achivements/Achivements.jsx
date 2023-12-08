@@ -2,7 +2,7 @@ import React from "react";
 import "./Achivements.css";
 
 const data = [
-  "Secured first position in frontend web development competition Webster3.0",
+  "Secured first position🏆in frontend web development competition",
   "Actively contributed and helped others in GGSOC 23",
   "CCNA: Introduction to Networks from Cisco",
   "API fundamentals from Postman",

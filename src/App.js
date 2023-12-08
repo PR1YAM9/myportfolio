@@ -6,7 +6,8 @@ import Name from './components/Name/Name'
 import Resume from './components/Resume/Resume'
 import TechStack from './components/TechStack/TechStack'
 import Achivements from './components/Achivements/Achivements'
-import BongoCat from './components/BongoCat/BongoCat'
+import BongocatGif from './components/BongoCatGif/BongocatGif'
+
 
 const App = () => {
   return (
@@ -23,7 +24,7 @@ const App = () => {
         </div>
         <div className="middle">
           <Achivements />
-          <BongoCat />
+          <BongocatGif />
         </div>
       </div>
     </>
