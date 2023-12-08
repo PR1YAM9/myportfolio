@@ -1,0 +1,63 @@
+.TCBox {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(107.3deg, #212121 8.54%, rgba(33, 33, 33, 0) 235%),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
+  border: 1px solid #ffffff33;
+  border-radius: 17px;
+  height: 315px;
+  width: 742px;
+}
+.TCHeader {
+  font-family: 'Notable';
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #e8e8e8;
+  margin: 10px;
+  margin-left: 30px;
+}
+.stackBox {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.SBHeading{
+    font-family: 'Palanquin';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #737373;
+    margin-bottom: 10px;
+}
+.SBcover{
+    display: flex;
+    flex-direction: column;
+}
+.SBcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    width: 204px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.SBname{
+  text-align: center;
+  font-family: Palanquin;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  color: #6C6C6C;
+  margin-top: -6px;
+}

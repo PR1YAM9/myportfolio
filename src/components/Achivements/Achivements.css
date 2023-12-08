@@ -1,0 +1,47 @@
+.ACbox{
+    display: flex;
+  flex-direction: column;
+  background: linear-gradient(107.3deg, #212121 8.54%, rgba(33, 33, 33, 0) 235%),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
+  border: 1px solid #ffffff33;
+  border-radius: 17px;
+  /* height: 315px; */
+  /* width: 742px; */
+  padding-bottom: 20px;
+}
+.ACheading{
+    font-family: 'Notable';
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #e8e8e8;
+  margin: 10px;
+  margin-left: 30px;
+}
+.ABox{
+    display: flex;
+  flex-direction:  column;
+  margin-left: 30px;
+  margin-right: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.Awords{
+
+font-family: 'Palanquin';
+font-size: 24px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+color:  #6C6C6C;
+
+}
+.Awords {
+    border-bottom: 1px solid #6B6B6B; /* Add a bottom border with 1px thickness and black color */
+    padding-bottom: 8px; /* Add some padding to separate the line from the text */
+    margin-bottom: 8px; /* Add margin to create space between achievements */
+  }
