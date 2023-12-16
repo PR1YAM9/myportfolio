@@ -7,6 +7,7 @@ import Resume from './components/Resume/Resume'
 import TechStack from './components/TechStack/TechStack'
 import Achivements from './components/Achivements/Achivements'
 import BongocatGif from './components/BongoCatGif/BongocatGif'
+import Projects from './components/Projects/Projects'
 
 
 const App = () => {
@@ -22,6 +23,9 @@ const App = () => {
           <Resume />
           <TechStack />
         </div>
+        {/* <div className="middle">
+          <Projects/>
+        </div> */}
         <div className="middle">
           <Achivements />
           <BongocatGif />

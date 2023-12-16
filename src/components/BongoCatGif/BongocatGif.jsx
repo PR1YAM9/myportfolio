@@ -1,17 +1,17 @@
 import React from 'react'
-import cat from '../../images/bongocatGif.gif'
+import cat from '../../images/cat-4.gif'
 import './bongo.css'
 
 import github from '../../images/githubSocial.svg'
 import linkedin from '../../images/linkedinSocial.svg'
-import twitter from '../../images/twitterSocial.jpeg'
+// import twitter from '../../images/twitterSocial.jpeg'
 import mail from '../../images/mailSocial.svg'
-import discord from '../../images/discordSocial.jpeg'
+// import discord from '../../images/discordSocial.jpeg'
 
 const socials =[
     {
         nane: 'Linkedin',
-        link: 'https://www.linkedin.com/in/abhishek-kumar-2a1a1b1b8/',
+        link: 'https://www.linkedin.com/in/priyam-maini-9730a419b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BupwxYxllSrmMoDdo0T9S%2BA%3D%3D',
         icon: linkedin,
     },
     // {
@@ -21,12 +21,12 @@ const socials =[
     // },
     {
         nane: 'Github',
-        link: '',
+        link: 'https://github.com/PR1YAM9',
         icon: github,
     },
     {
         nane: 'Mail',
-        link: '',
+        link: 'https://mail.google.com/mail/?view=cm&fs=1&to=priyam9maini@gmail.com',
         icon: mail,
     },
     // {
@@ -51,7 +51,7 @@ const BongocatGif = () => {
                     {
                         socials.map((item, index) => (
                             <div className="social" key={index}>
-                                <a href={item.link}>
+                                <a rel="noreferrer" target='_blank' href={item.link}>
                                     <img className='socialImg' src={item.icon} alt={item.name} />
                                 </a>
                             </div>

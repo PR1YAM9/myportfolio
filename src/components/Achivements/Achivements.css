@@ -6,7 +6,7 @@
   border: 1px solid #ffffff33;
   border-radius: 17px;
   /* height: 315px; */
-  /* width: 742px; */
+  width: 714px;
   padding-bottom: 20px;
 }
 .ACheading{
@@ -23,8 +23,8 @@
 .ABox{
     display: flex;
   flex-direction:  column;
-  margin-left: 30px;
-  margin-right: 20px;
+  /* margin-left: 30px; */
+  margin-right: 42px;
   justify-content: center;
   align-items: center;
   gap: 20px;

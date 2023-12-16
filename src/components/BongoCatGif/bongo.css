@@ -1,6 +1,7 @@
 .cat{
     width: 100%;
     height: auto;
+    mix-blend-mode: normal;
 }
 .BGbox{
     display: flex;
@@ -10,8 +11,8 @@
     border: 1px solid #ffffff33;
     border-radius: 17px;
     height: 364px;
-    max-width: 29%;
-    padding-bottom: 20px;
+    max-width: 23%;
+    /* padding-bottom: 20px; */
 }
 .BGheading{
     font-family: 'Notable';
