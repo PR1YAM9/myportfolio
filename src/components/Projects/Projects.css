@@ -1,0 +1,79 @@
+.ACover{
+    /* display: flex; */
+    /* flex-direction: column; */
+    background: linear-gradient(107.3deg, #212121 8.54%, rgba(33, 33, 33, 0) 235%),
+      linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
+    /* border: 1px solid #ffffff33; */
+    border-radius: 17px;
+    /* height: 315px; */
+    /* width: 73%; */
+    /* padding-bottom: 20px; */
+    align-items: center;
+    justify-content: center;
+}
+.Accs{
+    border-top: 1px solid #ffffff33;
+    border-radius: 17px;
+}
+.Pheading{
+    margin-left: 38px;
+    color: #CECECE;
+    font-family: 'Notable', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.PInternalCover{
+    margin-left: 38px;
+    margin-right: 38px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-top: 20px;
+    gap: 35px;
+}
+.PimgInner{
+    width: 422px;
+height: 230px;
+flex-shrink: 0;
+border-radius: 17px;
+}
+.PdescHeader{
+    color: #9B9B9B;
+font-family: Palanquin;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 133.1%; /* 21.296px */
+text-transform: uppercase;
+}
+.Pdesc{
+    width: 292px;
+    
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: left;
+}
+.PdescInner{
+    color: #6C6C6C;
+font-family: Palanquin;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 133.1%; /* 26.62px */
+}
+.PTStack{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: left;
+    gap: 40px;
+}
+.accordion__heading{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

@@ -23,9 +23,9 @@ const App = () => {
           <Resume />
           <TechStack />
         </div>
-        {/* <div className="middle">
+        <div className="middle">
           <Projects/>
-        </div> */}
+        </div>
         <div className="middle">
           <Achivements />
           <BongocatGif />
