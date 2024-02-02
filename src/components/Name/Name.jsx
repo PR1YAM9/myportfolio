@@ -4,7 +4,7 @@ const Name = () => {
   return (
     <>
         <div className="NameBox">
-            <h3 className='name'>Priyam <br /> Maini</h3>
+            <h3 className='name'>Priyam Maini</h3>
         </div>
     </>
   )

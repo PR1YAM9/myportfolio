@@ -44,4 +44,22 @@ color:  #6C6C6C;
     border-bottom: 1px solid #6B6B6B; /* Add a bottom border with 1px thickness and black color */
     padding-bottom: 8px; /* Add some padding to separate the line from the text */
     margin-bottom: 8px; /* Add margin to create space between achievements */
+}
+
+@media only screen and (max-width: 600px) {
+  .ACbox{
+    width: auto;
+    margin-left: 30px;
+    margin-right: 30px;
   }
+  .ABox{
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  .ACheading{
+    margin-left: 12px;
+  }
+  .ACheading{
+    font-size: 25px;
+  }
+}

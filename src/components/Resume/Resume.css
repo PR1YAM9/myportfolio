@@ -11,7 +11,6 @@
     width: 531px;
     border-radius: 17px;
     background-image: url('../../images/4S.svg');
-    /* background: no-repeat; */
     background-size: cover;
     width: 323px; 
 height: 315px;
@@ -30,4 +29,14 @@ height: 315px;
 }
 a{
     text-decoration: none;
+}
+@media only screen and (max-width: 600px) {
+    .ResumeBox{
+        width: 347px;
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .resume{
+        margin-left: 12px;
+    }
 }

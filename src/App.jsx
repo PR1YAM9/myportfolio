@@ -8,6 +8,7 @@ import TechStack from './components/TechStack/TechStack'
 import Achivements from './components/Achivements/Achivements'
 import BongocatGif from './components/BongoCatGif/BongocatGif'
 import Projects from './components/Projects/Projects'
+import Experience from './components/Experience/Experience'
 
 
 const App = () => {
@@ -22,6 +23,9 @@ const App = () => {
         <div className="middle">
           <Resume />
           <TechStack />
+        </div>
+        <div className="middle">
+          <Experience/>
         </div>
         <div className="middle">
           <Projects/>

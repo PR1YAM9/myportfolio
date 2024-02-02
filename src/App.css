@@ -16,3 +16,13 @@ body{
   display: flex;
   flex-direction: column;
 }
+@media only screen and (max-width: 600px) {
+  .middle{
+    margin-top: 20px;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .Cover{
+    margin-bottom: 30px;
+  }
+}
