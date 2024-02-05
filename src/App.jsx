@@ -9,6 +9,8 @@ import Achivements from './components/Achivements/Achivements'
 import BongocatGif from './components/BongoCatGif/BongocatGif'
 import Projects from './components/Projects/Projects'
 import Experience from './components/Experience/Experience'
+import CurrentlyListening from './components/CurrentlyListening/CurrentlyListening'
+
 
 
 const App = () => {
@@ -26,6 +28,7 @@ const App = () => {
         </div>
         <div className="middle">
           <Experience/>
+          <CurrentlyListening/>
         </div>
         <div className="middle">
           <Projects/>

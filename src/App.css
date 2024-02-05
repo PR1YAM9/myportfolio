@@ -16,13 +16,26 @@ body{
   display: flex;
   flex-direction: column;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
   .middle{
     margin-top: 20px;
     flex-direction: column;
     gap: 20px;
+    width: 100%;
   }
   .Cover{
-    margin-bottom: 30px;
+    margin: 30px;
+  }
+}
+
+@media only screen and (min-device-width: 650px) and (max-width: 930px){
+  .middle{
+    margin-top: 20px;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+  }
+  .Cover{
+    margin: 30px;
   }
 }

@@ -5,8 +5,8 @@ import './Resume.css'
 const Resume = () => {
   return (
     <>
-    <a target='_blank'  rel="noreferrer"  href="https://drive.google.com/file/d/12ZuZTJavZX_fiCAOrYUzfsEOd6o0ZLhM/view?usp=sharing">
-        <div className="ResumeBox">
+    <a className="ResumeBox" target='_blank'  rel="noreferrer"  href="https://drive.google.com/file/d/12ZuZTJavZX_fiCAOrYUzfsEOd6o0ZLhM/view?usp=sharing">
+        <div >
             <h3 className='resume'>Resume</h3>
             <div className="arr"></div>
         </div>

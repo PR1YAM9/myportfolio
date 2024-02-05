@@ -30,9 +30,19 @@ height: 315px;
 a{
     text-decoration: none;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
     .ResumeBox{
-        width: 347px;
+        width: 100%;
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .resume{
+        margin-left: 12px;
+    }
+}
+@media only screen and (min-device-width: 650px) and (max-width: 930px){
+    .ResumeBox{
+        width: 100%;
         height: auto;
         padding-bottom: 30px;
     }

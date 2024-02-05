@@ -9,6 +9,7 @@
       linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
     border: 1px solid #ffffff33;
     width: 531px;
+    background-image: url('../../images/noise.png');
     border-radius: 17px;
 }
 .name{
@@ -24,17 +25,25 @@
     justify-content: center;
     /* margin-bottom: 10px; */
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
     .NameBox{
-        width: auto;
-        margin-left: 30px;
-        margin-right: 30px;
+        width: 100%;
     }
     .name{
-        font-size: 38px;
+        font-size: 43px;
         line-height: 42.59px;
         width: 400;
         padding: 20px;
     }
-
+}
+@media only screen and (min-device-width: 650px) and (max-width: 930px){
+    .NameBox{
+        width: 100%;
+    }
+    .name{
+        font-size: 48px;
+        line-height: 63.89px;
+        width: 400;
+        padding: 20px;
+    }
 }

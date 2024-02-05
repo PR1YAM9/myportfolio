@@ -33,3 +33,14 @@ header h1{
         font-weight: 400;
     }
 }
+@media only screen and (min-device-width: 650px) and (max-width: 930px){
+    header{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    header h1{
+        font-size: 48px;
+        line-height: 62.4px;
+        font-weight: 400;
+    }
+}

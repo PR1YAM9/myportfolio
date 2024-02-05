@@ -10,6 +10,7 @@
     /* padding-bottom: 20px; */
     align-items: center;
     justify-content: center;
+    background-image: url('../../images/noise.png');
 }
 .Accs{
     border-top: 1px solid #ffffff33;
@@ -78,17 +79,28 @@ line-height: 133.1%; /* 26.62px */
     margin-bottom: 15px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
     .ACover{
-        width: auto;
-        margin-left: 30px;
-        margin-right: 30px;
+        width: 100%;
     }
     .PInternalCover{
         flex-direction: column;
     }
     .PimgInner{
         width: 273px;
+        height: auto;
+    }
+}
+
+@media only screen and (min-device-width: 650px) and (max-width: 930px){
+    .ACover{
+        width: 100%;
+    }
+    .PInternalCover{
+        flex-direction: row;
+    }
+    .PimgInner{
+        width: 333px;
         height: auto;
     }
 }
