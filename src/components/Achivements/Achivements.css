@@ -6,7 +6,7 @@
   border: 1px solid #ffffff33;
   border-radius: 17px;
   /* height: 315px; */
-  width: 714px;
+  width: 100%;
   padding-bottom: 20px;
   background-image: url('../../images/noise.png');
 }

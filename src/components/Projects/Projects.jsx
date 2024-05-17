@@ -2,6 +2,9 @@ import React from "react";
 import "./Projects.css";
 
 import chachiCover from "../../images/chachiCover.png";
+import imagineAiCover from "../../images/imagineAiCover.png";
+import jagritiCover from "../../images/jagritiCover.png";
+import robochartCover from "../../images/robochat.png";
 
 import {
   Accordion,
@@ -13,25 +16,32 @@ import {
 
 const data = [
   {
-    heading: "Chachi",
-    description: "Developed the website using NextJS keeping SEO in mind. Made an admin's page, protected routes, and added authorization to protect user's data. Utilized MongoDB to store user information, booking information",
+    heading: "Doctor’s Consultation & Appointment Booking Website",
+    description: "• Developed a website using NextJS with a focus on SEO, resulting in a remarkable 55% increase in appointment bookings. </br> • Added features such as Online Booking, Online Payment, Appointment Reminders & Health Records Access",
     techStack: "NextJs, ExpressJS, MongoDB, NodeJS",
-    links: "www.chachi.com",
+    links: "https://dr-sandy.vercel.app/",
     img: chachiCover
   },
   {
+    heading: "RoboChat",
+    description: "• React-based chat bot application that allows users to create and manage multiple chat sessions.  </br>• It features a responsive design with a sidebar for managing chats and a chat area for viewing and interacting with messages. </br> • Utilizes OpenAI Api for chat response and stores chat instances in local storage.",
+    techStack: "ReactJS, OpenAi API",
+    links: "https://chat-app-pr1yam9.vercel.app/",
+    img: robochartCover
+  },
+  {
     heading: "Imagine-AI",
-    description: "A responsive web app that generates images based on user prompts using Leap-AI API. Designed and developed a responsive user interface using React.js keeping user web flow in mind. Configured Leap-AI API to produce relevant images based on the user prompts. Used Express.JS and MongoDB to store user data for login and signup functionality.",
-    techStack: "NextJs, ExpressJS, MongoDB, NodeJS",
-    links: "www.imagine-ai.com",
-    img: chachiCover
+    description: "A responsive web app that generates images based on user prompts using Leap-AI API </br> • Designed and developed a responsive user interface using React.js keeping user web flow in mind.</br> • Configured Leap-AI API to produce relevant images based on the user prompts.</br>  • Used Express.JS and MongoDB to store user data for login and signup functionality.",
+    techStack: "ReactJs, ExpressJS, MongoDB, NodeJS",
+    links: "https://imagineai-teal.vercel.app/",
+    img: imagineAiCover
   },
   {
     heading: "Jagriti Malhotra's Portfolio",
     description: "Developed a responsive portfolio website for a Canadian marketing consultant. Focused on web flow and user experience.Handled deployment and solved bugs throughout the development.",
     techStack: "NextJs, ExpressJS, MongoDB, NodeJS",
-    links: "www.jagriti-portfolio.com",
-    img: chachiCover
+    links: "www.jagritimalhotra.com",
+    img: jagritiCover
   },
 ];
 
@@ -47,14 +57,14 @@ const Projects = () => {
                   <h2 className="Pheading">{project.heading}</h2>
                 </AccordionItemButton>
               </AccordionItemHeading>
-              <AccordionItemPanel>
+              <AccordionItemPanel className="accsp">
                 <div className="PInternalCover">
                   <div className="PImg">
                     <img className="PimgInner" src={project.img} alt={project.heading} />
                   </div>
                   <div className="Pdesc">
                     <div className="PdescHeader">Description</div>
-                    <div className="PdescInner">{project.description}</div>
+                    <div className="PdescInner" dangerouslySetInnerHTML={{ __html: project.description }}></div>
                   </div>
                   <div className="PTStack">
                     <div className="PTfirst">
@@ -64,7 +74,7 @@ const Projects = () => {
                     <div className="PTsecond">
                       <div className="PdescHeader">Links</div>
                       <div className="PdescInner">
-                        <a href={project.links}> View ↗️</a>
+                        <a target="_blank" rel="noreferrer" href={project.links}> View ↗️</a>
                       </div>
                     </div>
                   </div>

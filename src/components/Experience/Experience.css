@@ -1,3 +1,11 @@
+.expboxbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 96%; */
+}
+
 .ExpBox{
     display: flex;
     flex-direction: column;
@@ -5,8 +13,8 @@
       linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
     border: 1px solid #ffffff33;
     border-radius: 17px;
-    height: 315px;
-    width: 50%;
+    /* height: 315px; */
+    /* width: 100%; */
     background-image: url('../../images/noise.png');
 }
 .ExpHeader{
@@ -26,6 +34,7 @@
     padding: 10px;
 }
 .ExpEx{
+    margin-bottom: 20px;
     display: flex;
     flex-direction: row;
 }
@@ -75,7 +84,7 @@ color: #414141;
 
 }
 .expDesc{
-    max-width: 600px;
+    /* max-width: 600px; */
     font-family: Palanquin;
     font-size: 20px;
     font-weight: 400;
@@ -112,4 +121,9 @@ color: #414141;
         justify-content: left;
         align-items: start;
     }
+}
+@media screen and (min-width: 1400px) {
+    .expboxbox{
+        width: 78%;
+   }
 }

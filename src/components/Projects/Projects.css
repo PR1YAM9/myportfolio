@@ -12,6 +12,9 @@
     justify-content: center;
     background-image: url('../../images/noise.png');
 }
+.accsp{
+    padding-bottom: 20px;
+}
 .Accs{
     border-top: 1px solid #ffffff33;
     border-radius: 17px;

@@ -28,7 +28,7 @@ const App = () => {
         </div>
         <div className="middle">
           <Experience/>
-          <CurrentlyListening/>
+          {/* <CurrentlyListening/> */}
         </div>
         <div className="middle">
           <Projects/>

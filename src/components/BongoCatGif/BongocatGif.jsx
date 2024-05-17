@@ -4,9 +4,9 @@ import './bongo.css'
 
 import github from '../../images/githubSocial.svg'
 import linkedin from '../../images/linkedinSocial.svg'
-// import twitter from '../../images/twitterSocial.jpeg'
+import twitter from '../../images/Frame 102.svg'
 import mail from '../../images/mailSocial.svg'
-// import discord from '../../images/discordSocial.jpeg'
+import discord from '../../images/DiscordLogo.svg'
 
 const socials =[
     {
@@ -14,11 +14,11 @@ const socials =[
         link: 'https://www.linkedin.com/in/priyam-maini-9730a419b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BupwxYxllSrmMoDdo0T9S%2BA%3D%3D',
         icon: linkedin,
     },
-    // {
-    //     nane: 'Twitter',
-    //     link: '',
-    //     icon: twitter,
-    // },
+    {
+        nane: 'Twitter',
+        link: 'https://x.com/priyam9maini',
+        icon: twitter,
+    },
     {
         nane: 'Github',
         link: 'https://github.com/PR1YAM9',

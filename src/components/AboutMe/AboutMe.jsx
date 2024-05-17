@@ -9,7 +9,7 @@ const AboutMe = () => {
             <h3>About Me</h3>
             <div className="lower">
                 <div className="left"><img src={img3} alt="" /></div>
-                <div className="right">I am a web developer. You can find me coding, watching anime, or at the nearest badminton court. </div>
+                <div className="right">I am a web developer. You can find me coding, watching youtube, or at the nearest badminton court. </div>
             </div>
         </div>
     </>

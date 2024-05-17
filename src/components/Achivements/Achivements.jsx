@@ -3,7 +3,7 @@ import "./Achivements.css";
 
 const data = [
   "Secured first position🏆in frontend web development competition",
-  "Actively contributed and helped others in GGSOC 23",
+  "Software Testing from Indian Institute of Technology, Kharagpur",
   "CCNA: Introduction to Networks from Cisco",
   "API fundamentals from Postman",
   "DSA in JAVA from Coding Blocks",
