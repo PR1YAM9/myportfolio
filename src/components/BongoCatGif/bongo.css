@@ -63,3 +63,8 @@
         margin-left: 12px;
     }
 }
+@media screen and (min-width: 1400px) {
+    .BGbox{
+        width: 20%;
+   }
+  }
