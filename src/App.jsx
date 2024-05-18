@@ -9,31 +9,29 @@ import Achivements from './components/Achivements/Achivements'
 import BongocatGif from './components/BongoCatGif/BongocatGif'
 import Projects from './components/Projects/Projects'
 import Experience from './components/Experience/Experience'
-import CurrentlyListening from './components/CurrentlyListening/CurrentlyListening'
-
-
+import NavbarComponent from './components/Navbar/NavbarComponent'
 
 const App = () => {
   return (
     <>
+      <NavbarComponent/>
       <Header />
       <div className="Cover">
-        <div className="middle">
+        <div className="middle" id="about-me">
           <AboutMe />
           <Name />
         </div>
-        <div className="middle">
+        <div className="middle" id="resume">
           <Resume />
           <TechStack />
         </div>
-        <div className="middle">
-          <Experience/>
-          {/* <CurrentlyListening/> */}
+        <div className="middle" id="experience">
+          <Experience />
         </div>
-        <div className="middle">
-          <Projects/>
+        <div className="middle" id="projects">
+          <Projects />
         </div>
-        <div className="middle">
+        <div className="middle" id="achievements">
           <Achivements />
           <BongocatGif />
         </div>
