@@ -74,7 +74,7 @@ const Projects = () => {
                     <div className="PTsecond">
                       <div className="PdescHeader">Links</div>
                       <div className="PdescInner">
-                        <a target="_blank" rel="noreferrer" href={project.links}> View ↗️</a>
+                        <a className="Pview" target="_blank" rel="noreferrer" href={project.links}> View ↗️</a>
                       </div>
                     </div>
                   </div>

@@ -28,9 +28,13 @@ header h1{
         margin-right: 30px;
     }
     header h1{
-        font-size: 40px;
+        font-size: 37px;
         line-height: 62.4px;
         font-weight: 400;
+    }
+    .imgHeader{
+        height: 30px;
+        border-radius: 15px;
     }
 }
 @media only screen and (min-device-width: 650px) and (max-width: 930px){

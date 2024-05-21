@@ -55,7 +55,7 @@
     font-weight: 400;
     line-height: 27px;
     letter-spacing: 0em;
-    color: #787878;
+    color: #c7c1c1;
 }
 .ExUselessInner{
     display: flex;
@@ -72,7 +72,7 @@ font-weight: 400;
 line-height: 21px;
 letter-spacing: 0em;
 text-align: left;
-color: #737373;
+color: #c7c1c1;
 }
 .expDesig{
     font-family: Palanquin;
@@ -80,7 +80,7 @@ font-size: 20px;
 font-weight: 400;
 line-height: 27px;
 letter-spacing: 0em;
-color: #414141;
+color: #9e9797;
 
 }
 .expDesc{
@@ -91,7 +91,7 @@ color: #414141;
     line-height: 27px;
     letter-spacing: 0em;
     text-align: left;
-    color: #6C6C6C;
+    color: #9B9B9B;
 }
 /* Phone */
 @media only screen and (max-width: 650px) {
