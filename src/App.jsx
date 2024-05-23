@@ -10,6 +10,7 @@ import BongocatGif from './components/BongoCatGif/BongocatGif'
 import Projects from './components/Projects/Projects'
 import Experience from './components/Experience/Experience'
 import NavbarComponent from './components/Navbar/NavbarComponent'
+import Footer from './components/Footer/Footer'
 
 const App = () => {
   return (
@@ -35,6 +36,7 @@ const App = () => {
           <Achivements />
           <BongocatGif />
         </div>
+          <Footer/>
       </div>
     </>
   )

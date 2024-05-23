@@ -122,7 +122,7 @@ const TechStack = () => {
           </div>
 
               <div className="SBcover">
-                <h2 className="SBHeading">Spftware & Frameworks</h2>
+                <h2 className="SBHeading">Software & Frameworks</h2>
                 <div className="SBcontainer">
                   {Object.keys(otherData).map((key) => {
                     return (

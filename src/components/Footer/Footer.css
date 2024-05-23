@@ -1,0 +1,33 @@
+.footer{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 57%;
+}
+
+.sanya:hover{
+    background: linear-gradient(90deg, #77C9FA 6.73%, #A8D9FF 47.41%, #ABCEFE 69.71%, #8DA2FE 96.07%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.leftFooter , .rightFooter{
+    color: #6C6C6C;
+}
+
+@media only screen and (max-width: 650px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .leftFooter{
+        margin-bottom: 20px;
+    }
+    .rightFooter{
+        margin-top: 20px;
+    }
+}

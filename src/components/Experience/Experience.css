@@ -107,6 +107,10 @@ color: #9e9797;
         justify-content: left;
         align-items: start;
     }
+    .ExpImg{
+        display: none;
+    
+    }
 }
 @media only screen and (min-device-width: 650px) and (max-width: 930px){
     .ExpBox{
