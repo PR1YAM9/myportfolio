@@ -11,10 +11,11 @@ import Projects from './components/Projects/Projects'
 import Experience from './components/Experience/Experience'
 import NavbarComponent from './components/Navbar/NavbarComponent'
 import Footer from './components/Footer/Footer'
-
+import { SpeedInsights } from '@vercel/speed-insights/react';
 const App = () => {
   return (
     <>
+      <SpeedInsights />
       <NavbarComponent/>
       <Header />
       <div className="Cover">

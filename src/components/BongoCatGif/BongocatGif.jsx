@@ -6,7 +6,6 @@ import github from '../../images/githubSocial.svg'
 import linkedin from '../../images/linkedinSocial.svg'
 import twitter from '../../images/Frame 102.svg'
 import mail from '../../images/mailSocial.svg'
-import discord from '../../images/DiscordLogo.svg'
 
 const socials =[
     {
