@@ -15,7 +15,6 @@ import { SpeedInsights } from '@vercel/speed-insights/react';
 const App = () => {
   return (
     <>
-      <SpeedInsights />
       <NavbarComponent/>
       <Header />
       <div className="Cover">
@@ -39,6 +38,7 @@ const App = () => {
         </div>
           <Footer/>
       </div>
+      <SpeedInsights />
     </>
   )
 }
