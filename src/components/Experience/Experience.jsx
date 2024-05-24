@@ -2,6 +2,7 @@ import React from 'react';
 import './Experience.css';
 import B from '../../images/exp-icon1.svg';
 import Q from '../../images/Q.svg';
+import P from '../../images/Ppic.png';
 
 const data = [
   {
@@ -9,7 +10,7 @@ const data = [
     time: 'January 2024 - March 2024',
     designation: 'Technical Consultant & Program Implementation Intern',
     desc: "• Undertook data analysis for ‘Continuity in Education’<br />• Supported government school students enrolled from class 8th to 10th in designing STEM models. <br />• Participated in Career Guidance Fair and took sessions on career counselling for the school students.<br />• Taught difficult academic concepts in English, Mathematics and Science to the government school students enrolled in class 8th to 10th.<br />• Supported class 10 students to prepare for their board examination.",
-    image: B
+    image: P
   },
     {
       company: 'Quatro',

@@ -8,7 +8,7 @@ const Footer = () => {
             <p>© 2024 by <span>Priyam Maini</span></p>
         </div>
         <div className="rightFooter">
-            <p>Designed by <span className='sanya'>Sanya</span></p>
+            <p>Designed by <a href='https://sanya.framer.website' target='_blank' rel='noreferrer' className='sanya'>Sanya</a></p>
         </div>
     </div>
   )
