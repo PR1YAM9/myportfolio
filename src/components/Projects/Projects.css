@@ -67,12 +67,14 @@ text-transform: uppercase;
     align-items: left;
 }
 .PdescInner{
+    display: inline-flex;
     color: #9B9B9B;
 font-family: Palanquin;
 font-size: 17px;
 font-style: normal;
 font-weight: 400;
 line-height: 133.1%; /* 26.62px */
+gap: 20px;
 }
 .PTStack{
     display: flex;
@@ -87,6 +89,12 @@ line-height: 133.1%; /* 26.62px */
 }
 
 @media only screen and (max-width: 650px) {
+    .Pheading{
+        margin-left: 20px;
+    }
+    .PInternalCover{
+        margin-left: 20px;
+    }
     .ACover{
         width: 100%;
     }
@@ -100,6 +108,12 @@ line-height: 133.1%; /* 26.62px */
 }
 
 @media only screen and (min-device-width: 650px) and (max-width: 930px){
+    .Pheading{
+        margin-left: 20px;
+    }
+    .PInternalCover{
+        margin-left: 20px;
+    }
     .ACover{
         width: 100%;
     }
@@ -112,6 +126,7 @@ line-height: 133.1%; /* 26.62px */
     }
 }
 @media screen and (min-width: 1400px) {
+    
     .ACover{
         width: 78%;
    }

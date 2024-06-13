@@ -5,6 +5,7 @@ import chachiCover from "../../images/chachiCover.png";
 import imagineAiCover from "../../images/imagineAiCover.png";
 import jagritiCover from "../../images/jagritiCover.png";
 import robochartCover from "../../images/robochat.png";
+import partypals from "../../images/partypals1.png";
 
 import {
   Accordion,
@@ -15,6 +16,13 @@ import {
 } from "react-accessible-accordion";
 
 const data = [
+  {
+    heading: "Party Pals",
+    description: "• Created PartyPals, an event planning platform featuring vendor/guest onboarding, chat and announcements, seating arrangements, scheduling, gift registry, and budget tracking.</br> •  Integrated Gmail SMTP for RSVPs and Socketio for real time chat and annoucements",
+    techStack: "ReactJS,MUI, ExpressJS, MongoDB, NodeJS, Socket.io",
+    links: "https://party-pals.vercel.app/",
+    img: partypals
+  },  
   {
     heading: "Doctor’s Consultation & Appointment Booking Website",
     description: "• Developed a website using NextJS with a focus on SEO, resulting in a remarkable 55% increase in appointment bookings. </br> • Added features such as Online Booking, Online Payment, Appointment Reminders & Health Records Access",
