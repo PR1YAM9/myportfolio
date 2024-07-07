@@ -24,7 +24,7 @@ const data = [
     img: partypals
   },  
   {
-    heading: "Doctor’s Consultation & Appointment Booking Website",
+    heading: "Consultation & Appointment Booking Website",
     description: "• Developed a website using NextJS with a focus on SEO, resulting in a remarkable 55% increase in appointment bookings. </br> • Added features such as Online Booking, Online Payment, Appointment Reminders & Health Records Access",
     techStack: "NextJs, ExpressJS, MongoDB, NodeJS",
     links: "https://dr-sandy.vercel.app/",
@@ -39,13 +39,13 @@ const data = [
   },
   {
     heading: "Imagine-AI",
-    description: "A responsive web app that generates images based on user prompts using Leap-AI API </br> • Designed and developed a responsive user interface using React.js keeping user web flow in mind.</br> • Configured Leap-AI API to produce relevant images based on the user prompts.</br>  • Used Express.JS and MongoDB to store user data for login and signup functionality.",
+    description: "A responsive web app that generates images based on user prompts using Leap-AI API </br> • Designed and developed a responsive user interface using React.js keeping user web flow in mind.</br> • Configured Leap-AI API to produce relevant images based on the user prompts.</br>",
     techStack: "ReactJs, ExpressJS, MongoDB, NodeJS",
     links: "https://imagineai-teal.vercel.app/",
     img: imagineAiCover
   },
   {
-    heading: "Jagriti Malhotra's Portfolio",
+    heading: "Brand Ambassador's Portfolio",
     description: "Developed a responsive portfolio website for a Canadian marketing consultant. Focused on web flow and user experience.Handled deployment and solved bugs throughout the development.",
     techStack: "NextJs, ExpressJS, MongoDB, NodeJS",
     links: "www.jagritimalhotra.com",
@@ -68,7 +68,7 @@ const Projects = () => {
               <AccordionItemPanel className="accsp">
                 <div className="PInternalCover">
                   <div className="PImg">
-                    <img className="PimgInner" src={project.img} alt={project.heading} />
+                    <a href={project.links} target="_blank" rel="noreferrer"><img className="PimgInner" src={project.img} alt={project.heading} /></a>
                   </div>
                   <div className="Pdesc">
                     <div className="PdescHeader">Description</div>
