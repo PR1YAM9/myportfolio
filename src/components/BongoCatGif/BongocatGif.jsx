@@ -13,11 +13,11 @@ const socials =[
         link: 'https://www.linkedin.com/in/priyam-maini-9730a419b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BupwxYxllSrmMoDdo0T9S%2BA%3D%3D',
         icon: linkedin,
     },
-    {
-        nane: 'Twitter',
-        link: 'https://x.com/priyam9maini',
-        icon: twitter,
-    },
+    // {
+    //     nane: 'Twitter',
+    //     link: 'https://x.com/priyam9maini',
+    //     icon: twitter,
+    // },
     {
         nane: 'Github',
         link: 'https://github.com/PR1YAM9',
