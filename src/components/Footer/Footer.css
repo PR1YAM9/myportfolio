@@ -31,3 +31,8 @@
         margin-top: 20px;
     }
 }
+@media screen and (min-width: 1400px) {
+    .footer{
+        gap: 799px;
+    }
+  }
