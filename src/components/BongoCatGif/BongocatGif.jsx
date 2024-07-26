@@ -6,6 +6,7 @@ import github from '../../images/githubSocial.svg'
 import linkedin from '../../images/linkedinSocial.svg'
 import twitter from '../../images/Frame 102.svg'
 import mail from '../../images/mailSocial.svg'
+import peerList from '../../images/Peerlist.png'
 
 const socials =[
     {
@@ -28,11 +29,11 @@ const socials =[
         link: 'https://mail.google.com/mail/?view=cm&fs=1&to=priyam9maini@gmail.com',
         icon: mail,
     },
-    // {
-    //     nane: 'Discord',
-    //     link: '',
-    //     icon: discord,
-    // },
+    {
+        nane: 'PeerList',
+        link: 'https://peerlist.io/priyamm',
+        icon: peerList,
+    },
 
 ]
 
